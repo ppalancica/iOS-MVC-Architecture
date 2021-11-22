@@ -27,7 +27,7 @@
 		B358C2B3274C421600D8146C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B358C2B5274C421600D8146C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B358C2BF274C48CD00D8146C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		B358C2C1274C4AA800D8146C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "iOS-MVC-Architecture/App/FeedViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B358C2C1274C4AA800D8146C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "iOS-MVC-Architecture/Feed/FeedViewController.swift"; sourceTree = SOURCE_ROOT; };
 		B358C2C3274C4AB100D8146C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B358C2C5274C4AC400D8146C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,22 +63,14 @@
 			isa = PBXGroup;
 			children = (
 				B358C2BE274C483300D8146C /* App */,
-				B358C2BB274C42E200D8146C /* Feed */,
+				B358C2CC274C585F00D8146C /* Feed */,
 				B358C2BC274C42FC00D8146C /* Profile */,
 				B358C2BD274C435C00D8146C /* Settings */,
 				B358C2B0274C421600D8146C /* Assets.xcassets */,
-				B358C2B2274C421600D8146C /* LaunchScreen.storyboard */,
 				B358C2B5274C421600D8146C /* Info.plist */,
+				B358C2B2274C421600D8146C /* LaunchScreen.storyboard */,
 			);
 			path = "iOS-MVC-Architecture";
-			sourceTree = "<group>";
-		};
-		B358C2BB274C42E200D8146C /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				B358C2C1274C4AA800D8146C /* FeedViewController.swift */,
-			);
-			path = Feed;
 			sourceTree = "<group>";
 		};
 		B358C2BC274C42FC00D8146C /* Profile */ = {
@@ -106,6 +98,14 @@
 				B358C2BF274C48CD00D8146C /* MainTabBarController.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		B358C2CC274C585F00D8146C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B358C2C1274C4AA800D8146C /* FeedViewController.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
