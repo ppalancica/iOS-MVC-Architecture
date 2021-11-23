@@ -16,6 +16,8 @@
 		B358C2C2274C4AA800D8146C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358C2C1274C4AA800D8146C /* FeedViewController.swift */; };
 		B358C2C4274C4AB100D8146C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358C2C3274C4AB100D8146C /* ProfileViewController.swift */; };
 		B358C2C6274C4AC400D8146C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358C2C5274C4AC400D8146C /* SettingsViewController.swift */; };
+		B358C2CF274DA11E00D8146C /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358C2CD274DA11E00D8146C /* FeedCell.swift */; };
+		B358C2D0274DA11E00D8146C /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B358C2CE274DA11E00D8146C /* FeedCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B358C2C1274C4AA800D8146C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "iOS-MVC-Architecture/Feed/FeedViewController.swift"; sourceTree = SOURCE_ROOT; };
 		B358C2C3274C4AB100D8146C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B358C2C5274C4AC400D8146C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B358C2CD274DA11E00D8146C /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B358C2CE274DA11E00D8146C /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				B358C2C1274C4AA800D8146C /* FeedViewController.swift */,
+				B358C2CD274DA11E00D8146C /* FeedCell.swift */,
+				B358C2CE274DA11E00D8146C /* FeedCell.xib */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B358C2D0274DA11E00D8146C /* FeedCell.xib in Resources */,
 				B358C2B4274C421600D8146C /* LaunchScreen.storyboard in Resources */,
 				B358C2B1274C421600D8146C /* Assets.xcassets in Resources */,
 			);
@@ -183,6 +190,7 @@
 				B358C2C6274C4AC400D8146C /* SettingsViewController.swift in Sources */,
 				B358C2A8274C421200D8146C /* AppDelegate.swift in Sources */,
 				B358C2C2274C4AA800D8146C /* FeedViewController.swift in Sources */,
+				B358C2CF274DA11E00D8146C /* FeedCell.swift in Sources */,
 				B358C2C0274C48CD00D8146C /* MainTabBarController.swift in Sources */,
 				B358C2AA274C421200D8146C /* SceneDelegate.swift in Sources */,
 			);
